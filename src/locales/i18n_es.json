@@ -1,0 +1,10 @@
+{
+    "appName": "Coches",
+    "navigation": {
+      "allArticles": "Todos articulos",
+      "about": "Sobre nosotros"
+    },
+    "footer": {
+      "text": "danilec© %{year}"
+    }
+  }

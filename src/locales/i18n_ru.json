@@ -1,0 +1,10 @@
+{
+    "appName": "Машины",
+    "navigation": {
+      "allArticles": "Все статьи",
+      "about": "О нас"
+    },
+    "footer": {
+      "text": "danilec© %{year}"
+    }
+  }

@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 
 //styles defined externally
-import {bodyStyles} from 'globalstyles/styles';
+import {bodyStyles} from 'sources/styles';
+import i18n from 'sources/i18n';
 import CustomHeader from "../components/CustomHeader";
 
 export default class Home extends Component {
@@ -16,7 +17,7 @@ export default class Home extends Component {
         </View>
         <View style={{flex: 24, backgroundColor: '#e0ebeb'}} />
         <View style={bodyStyles.footer}>
-          <Text style={bodyStyles.footerText}>danilec©</Text>
+          <Text style={bodyStyles.footerText}>{i18n.t('footer.text', { year: new Date().getFullYear()})}</Text>
         </View>
       </View>
     );

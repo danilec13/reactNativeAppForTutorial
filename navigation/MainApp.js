@@ -6,18 +6,21 @@ import CustomDrawerNavigator from "./components/CustomDrawerNavigator";
 import Home from "./views/Home";
 import About from "./views/About";
 
+import i18n from 'sources/i18n';
+
+
 const MainNavigator = createDrawerNavigator(
   {
     Home: {
       navigationOptions: {
         drawerIcon: ({ tintColor }) => (
             <Image
-                source={require('../assets/images/allList.png')}
+                source={require('images/allList.png')}
                 fadeDuration={0}
                 style={{width: 20, height: 20}}
             />
         ),
-        drawerLabel: "All articles"
+        drawerLabel: i18n.t('navigation.allArticles')
       },
       screen: Home
     },
@@ -25,12 +28,12 @@ const MainNavigator = createDrawerNavigator(
       navigationOptions: {
         drawerIcon: ({ tintColor }) => (
           <Image
-                source={require('../assets/images/allList.png')}
+                source={require('images/aboutUs.png')}
                 fadeDuration={0}
                 style={{width: 20, height: 20}}
             />
         ),
-        drawerLabel: "About"
+        drawerLabel: i18n.t('navigation.about')
       },
       screen: About
     }

@@ -1,7 +1,9 @@
 import React from "react";
 import { View, TouchableHighlight, Image, Text } from "react-native";
-
+ 
 import styles from "./styles";
+import i18n from 'sources/i18n';
+
 
 //https://medium.com/@davidjwoody/how-to-use-absolute-paths-in-react-native-6b06ae3f65d1
 
@@ -11,7 +13,7 @@ const CustomHeader = ({ navigation }) => (
       <Image style={styles.menuIcon} source={require('images/navigationIcon.png')} />
     </TouchableHighlight>
     <View style={styles.headerTextContainer}>
-      <Text style={styles.headerText}>{this.props.ht.toUpperCase()}</Text>
+      <Text style={styles.headerText}>{i18n.t('appName').toUpperCase()}</Text>
     </View>
   </View>
 );
