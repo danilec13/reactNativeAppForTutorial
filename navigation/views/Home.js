@@ -13,7 +13,7 @@ export default class Home extends Component {
     return (
       <View style={{flex: 1}}>
         <View style={bodyStyles.header}>
-          <CustomHeader navigation={this.props.navigation} />
+          <CustomHeader navigation={this.props.navigation} headerText={i18n.t('appName').toUpperCase()}/>
         </View>
         <View style={{flex: 24, backgroundColor: '#e0ebeb'}} />
         <View style={bodyStyles.footer}>
