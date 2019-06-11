@@ -2,7 +2,7 @@ import React from 'react';
 import { Image } from 'react-native';
 import { createAppContainer, createDrawerNavigator } from "react-navigation";
 
-import CustomDrawerNavigator from "./components/CustomDrawerNavigator";
+import CustomDrawerNavigator from "./components/CustomDrawerNavigator/CustomDrawerNavigator";
 import Home from "./views/Home";
 import About from "./views/About";
 

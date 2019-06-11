@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View } from "react-native";
 
-import CustomHeader from "../components/CustomHeader";
+import CustomHeader from "customheader/CustomHeader";
 
 export default class About extends Component {
   render() {

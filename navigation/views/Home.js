@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 //styles defined externally
 import {bodyStyles} from 'sources/styles';
 import i18n from 'sources/i18n';
-import CustomHeader from "../components/CustomHeader";
+import CustomHeader from "customheader/CustomHeader";
 
 export default class Home extends Component {
   
