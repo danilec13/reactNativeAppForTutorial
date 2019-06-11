@@ -7,7 +7,7 @@ import Home from "./views/Home";
 import About from "./views/About";
 
 import i18n from 'sources/i18n';
-
+ 
 
 const MainNavigator = createDrawerNavigator(
   {
