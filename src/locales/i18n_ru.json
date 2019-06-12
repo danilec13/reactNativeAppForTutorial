@@ -4,6 +4,7 @@
       "allArticles": "Все статьи",
       "about": "О нас"
     },
+    "loadBtn": "Загрузить статьи",
     "footer": {
       "text": "danilec© %{year}"
     }

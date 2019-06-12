@@ -4,6 +4,7 @@
       "allArticles": "Todos articulos",
       "about": "Sobre nosotros"
     },
+    "loadBtn": "Bajar articulos",
     "footer": {
       "text": "danilec© %{year}"
     }
