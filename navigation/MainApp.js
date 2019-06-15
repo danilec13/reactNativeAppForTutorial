@@ -4,6 +4,7 @@ import { createAppContainer, createDrawerNavigator } from "react-navigation";
 
 import CustomDrawerNavigator from "./components/CustomDrawerNavigator/CustomDrawerNavigator";
 import Home from "./views/Home";
+import Saved from "./views/Saved";
 import About from "./views/About";
 
 import i18n from 'sources/i18n';
@@ -23,6 +24,20 @@ const MainNavigator = createDrawerNavigator(
         drawerLabel: i18n.t('navigation.allArticles')
       },
       screen: Home
+    },
+    Saved: {
+      navigationOptions: {
+        drawerIcon: ({ tintColor }) => (
+            <Image
+                source={require('images/starsaved.png')}
+                fadeDuration={0}
+                style={{width: 20, height: 20}}
+            />
+        ),
+        drawerLabel: i18n.t('navigation.savedArticles')
+      },
+      screen: Saved,
+      onPress: ()=>{console.log("asdsd")},
     },
     About: {
       navigationOptions: {

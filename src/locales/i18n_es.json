@@ -2,6 +2,7 @@
     "appName": "Noticias",
     "navigation": {
       "allArticles": "Todos articulos",
+      "savedArticles": "Articulos guardados",
       "about": "Sobre nosotros"
     },
     "loadBtn": "Bajar articulos",

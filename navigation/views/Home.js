@@ -6,7 +6,7 @@ import {bodyStyles} from 'sources/styles';
 import i18n from 'sources/i18n';
 import CustomHeader from "customheader/CustomHeader";
 
-import FetchArticles from '../../rss_articles.js'
+import FetchArticles from 'sources/rss_articles'
 
 
 export default class Home extends Component {
@@ -20,7 +20,7 @@ export default class Home extends Component {
         </View>
         <View style={{flex: 24, backgroundColor: '#e0ebeb'}}>
           <ScrollView>
-            <FetchArticles/>
+            <FetchArticles navigation={this.props.navigation}/>
           </ScrollView>
         </View>
         <View style={bodyStyles.footer}>

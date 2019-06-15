@@ -2,6 +2,7 @@
     "appName": "News",
     "navigation": {
       "allArticles": "All articles",
+      "savedArticles": "Saved articles",
       "about": "About us"
     },
     "loadBtn": "Load articles",

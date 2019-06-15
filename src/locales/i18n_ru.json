@@ -2,6 +2,7 @@
     "appName": "Новости",
     "navigation": {
       "allArticles": "Все статьи",
+      "savedArticles": "Сохраненные статьи",
       "about": "О нас"
     },
     "loadBtn": "Загрузить статьи",
